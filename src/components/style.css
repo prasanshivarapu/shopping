@@ -1,0 +1,556 @@
+.right {
+    margin-left: auto;
+}
+body {
+    padding: 10px;
+}
+.main {
+    background-color: white;
+
+    width: 50%;
+    padding-right: 100px;
+}
+.first {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.input {
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-color: rgb(216, 193, 193);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    width: 60% !important;
+    border: solid;
+}
+.but {
+    background-color: rgb(65, 136, 216);
+    border-radius: 5px;
+    outline: none;
+    border-color: transparent;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+.but2 {
+    background-color: rgb(65, 148, 216);
+    border-radius: 5px;
+    outline: none;
+    border-color: transparent;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.error {
+    color: red;
+}
+.sub {
+    color: green;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.error {
+    color: red;
+}
+.log {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.dark-offcanvas {
+    background-color: #333;
+    color: #fff;
+    margin-right: 15px;
+    width: 100px;
+}
+
+.dropdown {
+    text-align: left;
+    margin-left: auto;
+}
+.offcan {
+    margin-bottom: 5px;
+    list-style: none;
+    margin: 10px;
+    color: #ffffff;
+}
+a {
+    margin-bottom: 30px;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+li {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 5px;
+}
+.home {
+    margin-top: 5px;
+}
+.boo {
+    font-size: 18px;
+}
+.hambericon {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+.icon {
+    font-size: 50px;
+    height: 30px;
+}
+/* .image{
+    height: 300px;
+    width: 300px;
+    border: solid;
+    margin: auto;
+} */
+/* .s-product{
+    border: solid;
+    width: 350px;
+    min-height: 400px;
+    margin: 5px;
+    border-width: 1px;
+    border-color: #ccc;
+    padding: 15px;
+} */
+.block {
+    min-height: 100vh;
+    background-color: rgb(213, 221, 221);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* In your CSS file or style section */
+/* .block{
+    min-height: 100vh;
+    background-color: rgb(213, 221, 221);
+} */
+.s-product {
+    border: 1px solid #ddd;
+    /* padding: 20px; */
+    margin: 10px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 350px;
+}
+/* .s-product2 {
+    border: 1px solid #c2bdbd;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 5px;
+    text-align: center;
+    margin: auto;
+} */
+
+.image-con {
+    width: 250px;
+    height: 165px;
+    margin-bottom: 30px;
+    /* border: solid; */
+    /* margin: 20px; */
+}
+.image {
+    padding-top: 5px;
+    width: 255px;
+    height: 160px;
+    background-size: contain; /* Use 'contain' to fit the entire image within the container */
+    background-position: center center;
+    margin-bottom: 10px;
+    object-fit: contain;
+    /* border: solid; */
+}
+
+.image-con img {
+    object-fit: cover; /* or "contain" depending on your preference */
+}
+.des {
+    width: 200px;
+
+    /* border: solid; */
+    text-align: center;
+}
+.image2 {
+    font-size: medium;
+    max-width: 50%;
+    height: auto;
+    /* margin-bottom: 10px; */
+}
+
+p {
+    margin: 5px 0;
+}
+
+.price {
+    color: #e44d26;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.added {
+    color: green;
+    margin-top: 15px;
+}
+.product-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.product-info {
+    /* margin: auto; */
+}
+.removed {
+    color: red;
+}
+
+.right {
+    margin-left: auto;
+}
+body {
+    padding: 10px;
+}
+.main {
+    background-color: white;
+
+    width: 50%;
+    padding-right: 100px;
+}
+.first {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.input {
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-color: rgb(216, 193, 193);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    width: 60% !important;
+    border: solid;
+}
+.but {
+    background-color: rgb(65, 136, 216);
+    border-radius: 5px;
+    outline: none;
+    border-color: transparent;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+.but2 {
+    background-color: rgb(65, 148, 216);
+    border-radius: 5px;
+    outline: none;
+    border-color: transparent;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.error {
+    color: red;
+}
+.sub {
+    color: green;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.error {
+    color: red;
+}
+.log {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.dark-offcanvas {
+    background-color: #333;
+    color: #fff;
+    margin-right: 15px;
+    width: 100px;
+}
+
+.dropdown {
+    text-align: left;
+    margin-left: auto;
+}
+.offcan {
+    margin-bottom: 5px;
+    list-style: none;
+    margin: 10px;
+    color: #ffffff;
+}
+a {
+    margin-bottom: 30px;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+li {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 5px;
+}
+.home {
+    margin-top: 5px;
+}
+.boo {
+    font-size: 18px;
+}
+.hambericon {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+.icon {
+    font-size: 50px;
+    height: 30px;
+}
+/* .image{
+    height: 300px;
+    width: 300px;
+    border: solid;
+    margin: auto;
+} */
+/* .s-product{
+    border: solid;
+    width: 350px;
+    min-height: 400px;
+    margin: 5px;
+    border-width: 1px;
+    border-color: #ccc;
+    padding: 15px;
+} */
+.block {
+    min-height: 100vh;
+    background-color: rgb(213, 221, 221);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* In your CSS file or style section */
+/* .block{
+    min-height: 100vh;
+    background-color: rgb(213, 221, 221);
+} */
+.s-product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.s-product2 {
+    border: 1px solid #c2bdbd;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 5px;
+    text-align: center;
+    margin: auto;
+}
+.image {
+    max-width: 100%;
+    height: 180px;
+
+    border: solid;
+}
+.image2 {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.price {
+    color: #e44d26;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.added {
+    color: green;
+    margin-top: 15px;
+}
+.product-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.product-info {
+    margin: auto;
+}
+.removed {
+    color: red;
+}
+/* Cart.css */
+
+.cart-container {
+    margin: 20px;
+}
+
+.cart-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.item-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.item-price,
+.item-total {
+    font-size: 14px;
+    color: #555;
+}
+
+.cart-summary {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.total-amount {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.place-order-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.place-order-btn:hover {
+    background-color: #45a049;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+.buttoncont {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.disable {
+    background-color: #dddddd; /* Change the background color */
+    color: #999999; /* Change the text color */
+    cursor: not-allowed !important;
+    color: black !important;
+    border: none;
+    pointer-events: none;
+    opacity: 0.5;
+    /* Change the cursor to indicate it's not clickable */
+    /* Add any other styles you want for disabled buttons */
+}
+
+/* 
+home page */
+.home-container {
+    /* background-image: url("romantic-background.jpg"); Replace with your romantic background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    text-align: center;
+    color: white;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.google-login-button {
+    /* Style the Google Sign-In button if needed */
+}
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
