@@ -55,7 +55,7 @@ function MyNavbar(props) {
                                 </Button>
                             </Nav.Link>
                             <Nav.Link>
-                                <Button onClick={login} variant="primary">
+                                <Button onClick={login} variant="outline-primary">
                                     logout
                                 </Button>
                             </Nav.Link>
